@@ -28,9 +28,9 @@ export const Navbar = () => {
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
           <ThemeChanger />
           <div className="hidden mr-3 lg:flex nav__item">
-            <Link href="/" className="px-6 py-2 text-white bg-[#070705] rounded-md md:ml-5">
+            <a href="https://panel.soforumnerde.com" target="_blank" className="px-6 py-2 text-white bg-[#070705] rounded-md md:ml-5">
               Hemen Katıl
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -62,9 +62,9 @@ export const Navbar = () => {
 
               <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                 <div className="mr-3 lg:flex nav__item">
-                  <Link href="/" className="px-6 py-2 text-white bg-[#070705] rounded-md md:ml-5">
+                  <a href="https://panel.soforumnerde.com" className="px-6 py-2 text-white bg-[#070705] rounded-md md:ml-5">
                     Hemen Katıl
-                  </Link>
+                  </a>
                 </div>
               </Disclosure.Panel>
             </>
