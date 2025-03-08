@@ -11,7 +11,7 @@ export const Hero = () => {
               Şoförüm Nerde
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Şoförüm Nerde sayesinde aracınızı ve sürücünüzü takip edebilir, güvenliğinizi sağlayabilirsiniz.
+            Şoförünüz size nerde olduğunu bildirsin siz ona uygun işleri hazırlayıp yönlendirin cirosunu hesaplayın günlük hatlık ve aylık  kaç saat çalışdığını  görün Yani bunlar için fazla yorulmayın program yapsın.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -19,7 +19,7 @@ export const Hero = () => {
                 href="https://panel.soforumnerde.com"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-[#070705] rounded-md ">
                 Hemen Katıl
               </a>             
             </div>

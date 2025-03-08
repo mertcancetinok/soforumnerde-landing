@@ -13,14 +13,14 @@ export function Footer() {
               {" "}
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                className="flex items-center space-x-2 text-2xl font-medium dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/logo.png"
                   alt="N"
-                  width="32"
-                  height="32"
-                  className="w-8"
+                  width={160}
+                  height={160}
+                  className="w-16 h-16 rounded-md"
                 />
                 <span>Şoförüm Nerde</span>
               </Link>
@@ -29,8 +29,8 @@ export function Footer() {
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
               Şoförüm nerde hakkında biraz bilgi yazılacak buraya
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, sapiente.
-            </div>            
-          </div>          
+            </div>
+          </div>
           <div className="justify-self-start md:justify-self-end">
             <div>Bizi Takip Edin</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
