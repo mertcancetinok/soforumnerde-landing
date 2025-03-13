@@ -26,9 +26,10 @@ export function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Şoförüm nerde hakkında biraz bilgi yazılacak buraya
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, sapiente.
+            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400 flex-col flex gap-3">
+              <p>Programımız Transfer,Nakjliye,Kurye,Paket servis,Kargo ve sahada çalışan bütün işletmelere uygundur ve içerisindeki özelliklersayesinde uyarlanabilir</p>
+              <p>CeSuS Ar. Ge . Web ve Mobil Yazılım Geliştirme</p>
+              <p>İletişim: soforumnerde@gmail.com</p>
             </div>
           </div>
           <div className="justify-self-start md:justify-self-end">

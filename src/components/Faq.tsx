@@ -36,21 +36,19 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "İlk soru?",
-    answer: "İlk cevap",
+    question: "Neden kullanmalıyız?",
+    answer: "Az km, çok iş, çok para.",
   },
   {
-    question: "İkinci soru?",
-    answer: "İkinci cevap",
+    question: "Güvenli mi?",
+    answer: "Kişisel hiçbir bilginiz başkalarıyla paylaşılmamaktadır.",
   },
   {
-    question: "Üçüncü soru?",
-    answer:
-      "Üçüncü cevap",
+    question: "Kayıt olmam için ne gerekli?",
+    answer: "Sadece bir telefon numarası yeterli.",
   },
   {
-    question: "Dördüncü soru?",
-    answer:
-      "Dördüncü cevap",
+    question: "İçerisinde mesajlaşma var mı?",
+    answer: "Program içerisinde yerleşik bir mesajlaşma alanı var. Ama isterseniz program içerisinden WhatsApp'a da bağlanabiliyorsunuz.",
   },
 ];
