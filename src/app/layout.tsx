@@ -12,6 +12,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Şoförüm Nerde",
   description: "Şoförüm Nerde",
+  verification: {
+    google: "RpiBuj9sI105GnrTmHSbfltpKgMqDfk1hqWkeYamw64",
+  }
 };
 
 export default function RootLayout({
